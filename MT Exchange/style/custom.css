@@ -1,0 +1,46 @@
+@font-face {
+    font-family: YekanBakhmd;
+    font-style: normal;
+    font-weight: 500;
+    src: local('fonts/YekanBakh-Bold.bbd877a3.woff') , url('../fonts/YekanBakh-Medium.f7360956.woff') format('woff');
+}
+@font-face {
+    font-family: YekanBakhbd;
+    font-style: normal;
+    font-weight: 900;
+    src: local('fonts/YekanBakh-Bold.bbd877a3.woff') , url('../fonts/YekanBakh-Bold.bbd877a3.woff') format('woff');
+}
+body {
+    font-family: YekanBakhmd;
+}
+.mt-450px{
+    margin-top: 450px;
+}
+#button-sidebar {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+#button-sidebar:hover {
+    background-color: transparent; 
+    border: 0;
+    outline: none;
+}
+.sidebar{
+    width: inherit;
+}
+#offcanvas {
+    width: 280px;
+}
+.fs-18px {
+    font-size: 18px;
+}
+.w-100px {
+    width: 100px;
+}
+.bottom-10 {
+    bottom: 10px;
+}
+.end-10 {
+    left: 10px;
+}
